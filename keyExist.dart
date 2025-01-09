@@ -7,6 +7,6 @@ void main() {
 }
 
 keyExists(Map<String, dynamic> data) {
-  bool result = data.containsKey("Color");
+  bool result = data.containsKey("Name");
   return result;
 }
